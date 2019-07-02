@@ -10,7 +10,7 @@ Inside of the ```ecommerce``` directory run the command below:
   * GET /campaign
   * GET /campaign/{id}
   * POST /campaign
-    ```json
+    ```
       Example:
         {
           title: "Campaign",
@@ -26,7 +26,7 @@ Inside of the ```ecommerce``` directory run the command below:
   * GET /category
   * GET /category/{id}
   * POST /category
-    ```json
+    ```
       Example:
         {
           title:"Category",
@@ -39,7 +39,7 @@ Inside of the ```ecommerce``` directory run the command below:
   * GET /coupon
   * GET /coupon/{id}
   * POST /coupon
-    ```json
+    ```
       Example:
         {
           discountAmount: 10.0,
@@ -51,7 +51,7 @@ Inside of the ```ecommerce``` directory run the command below:
   * GET /product
   * GET /product/{id}
   * POST /product
-    ```json
+    ```
       Example:
         {
           title: "Product",
@@ -67,7 +67,7 @@ Inside of the ```ecommerce``` directory run the command below:
   * GET /cart/{id}/orders
   * GET /cart/{cartId}/orders/{orderId}
   * POST /cart/{cartId}/applyCampaignDiscount
-  ```json
+  ```
     Example:
     [
       {
@@ -79,7 +79,7 @@ Inside of the ```ecommerce``` directory run the command below:
     ]
   ```
   * POST /cart/{cartId}/applyCouponDiscount
-    ```json
+    ```
     Example:
     {
       id:1
